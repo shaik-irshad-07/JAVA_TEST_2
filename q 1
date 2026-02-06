@@ -6,14 +6,14 @@ abstract class PaymentMethod {
 
 class CardPayment extends PaymentMethod {
     void pay(double amount) {
-        System.out.println("Card Payment: ₹" + amount);
+        System.out.println("Card Payment: $" + amount);
     }
 }
 
 
 class UPIPayment extends PaymentMethod {
     void pay(double amount) {
-        System.out.println("UPI Payment: ₹" + amount);
+        System.out.println("UPI Payment: $" + amount);
     }
 }
 
